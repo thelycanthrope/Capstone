@@ -1,0 +1,4 @@
+export const FETCH_USERS_SUCCESS='FETCH_USERS_SUCCESS'
+export const ADD_PRODUCT='ADD_PRODUCT'
+export const ADD_USER="ADD_USER"
+export const FETCH_USERS="FETCH_USERS"

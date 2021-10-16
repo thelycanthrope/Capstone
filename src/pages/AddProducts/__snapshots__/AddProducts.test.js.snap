@@ -1,0 +1,579 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`checking Add prods snapshot taking snapshot 1`] = `
+<div
+  className="bg-dark"
+>
+  <Formik
+    initialValues={
+      Object {
+        "category": "",
+        "description": "",
+        "manufacturer": "",
+        "pname": "",
+        "price": "",
+        "quantity": "",
+        "url": "",
+      }
+    }
+    onSubmit={[Function]}
+    validationSchema={
+      ObjectSchema {
+        "_blacklist": ReferenceSet {
+          "list": Set {},
+          "refs": Map {},
+        },
+        "_excludedEdges": Array [],
+        "_mutate": undefined,
+        "_nodes": Array [
+          "category",
+          "url",
+          "quantity",
+          "price",
+          "manufacturer",
+          "description",
+          "pname",
+        ],
+        "_sortErrors": [Function],
+        "_typeError": [Function],
+        "_whitelist": ReferenceSet {
+          "list": Set {},
+          "refs": Map {},
+        },
+        "conditions": Array [],
+        "deps": Array [],
+        "exclusiveTests": Object {},
+        "fields": Object {
+          "category": StringSchema {
+            "_blacklist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_blacklistError": undefined,
+            "_mutate": undefined,
+            "_typeError": [Function],
+            "_whitelist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_whitelistError": undefined,
+            "conditions": Array [],
+            "deps": Array [],
+            "exclusiveTests": Object {
+              "required": true,
+            },
+            "spec": Object {
+              "abortEarly": true,
+              "nullable": false,
+              "presence": "required",
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": Array [
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "description": StringSchema {
+            "_blacklist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_blacklistError": undefined,
+            "_mutate": undefined,
+            "_typeError": [Function],
+            "_whitelist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_whitelistError": undefined,
+            "conditions": Array [],
+            "deps": Array [],
+            "exclusiveTests": Object {
+              "required": true,
+            },
+            "spec": Object {
+              "abortEarly": true,
+              "nullable": false,
+              "presence": "required",
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": Array [
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "manufacturer": StringSchema {
+            "_blacklist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_blacklistError": undefined,
+            "_mutate": undefined,
+            "_typeError": [Function],
+            "_whitelist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_whitelistError": undefined,
+            "conditions": Array [],
+            "deps": Array [],
+            "exclusiveTests": Object {
+              "required": true,
+            },
+            "spec": Object {
+              "abortEarly": true,
+              "nullable": false,
+              "presence": "required",
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": Array [
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "pname": StringSchema {
+            "_blacklist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_blacklistError": undefined,
+            "_mutate": undefined,
+            "_typeError": [Function],
+            "_whitelist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_whitelistError": undefined,
+            "conditions": Array [],
+            "deps": Array [],
+            "exclusiveTests": Object {
+              "required": true,
+            },
+            "spec": Object {
+              "abortEarly": true,
+              "nullable": false,
+              "presence": "required",
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": Array [
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "price": StringSchema {
+            "_blacklist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_blacklistError": undefined,
+            "_mutate": undefined,
+            "_typeError": [Function],
+            "_whitelist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_whitelistError": undefined,
+            "conditions": Array [],
+            "deps": Array [],
+            "exclusiveTests": Object {
+              "required": true,
+            },
+            "spec": Object {
+              "abortEarly": true,
+              "nullable": false,
+              "presence": "required",
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": Array [
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "quantity": StringSchema {
+            "_blacklist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_blacklistError": undefined,
+            "_mutate": undefined,
+            "_typeError": [Function],
+            "_whitelist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_whitelistError": undefined,
+            "conditions": Array [],
+            "deps": Array [],
+            "exclusiveTests": Object {
+              "required": true,
+            },
+            "spec": Object {
+              "abortEarly": true,
+              "nullable": false,
+              "presence": "required",
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": Array [
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "string",
+          },
+          "url": StringSchema {
+            "_blacklist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_blacklistError": undefined,
+            "_mutate": undefined,
+            "_typeError": [Function],
+            "_whitelist": ReferenceSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_whitelistError": undefined,
+            "conditions": Array [],
+            "deps": Array [],
+            "exclusiveTests": Object {
+              "required": true,
+            },
+            "spec": Object {
+              "abortEarly": true,
+              "nullable": false,
+              "presence": "required",
+              "recursive": true,
+              "strict": false,
+              "strip": false,
+            },
+            "tests": Array [
+              [Function],
+            ],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "string",
+          },
+        },
+        "spec": Object {
+          "abortEarly": true,
+          "nullable": false,
+          "presence": "optional",
+          "recursive": true,
+          "strict": false,
+          "strip": false,
+        },
+        "tests": Array [],
+        "transforms": Array [
+          [Function],
+        ],
+        "type": "object",
+      }
+    }
+  >
+    <div>
+       
+      <br />
+      <br />
+      <br />
+      <h1
+        className="text-white text-center"
+      >
+        Add New Product
+      </h1>
+      <br />
+      <Form
+        className=" container  border rounded "
+      >
+         
+        <PromptIfDirty />
+        <div
+          className=" row"
+        >
+          <div
+            className="col-sm"
+          >
+            <label
+              className="form-label text-white d-flex justify-content-center"
+              htmlFor="pname"
+            >
+              Product Nme
+            </label>
+             
+            <span
+              style={
+                Object {
+                  "color": "red",
+                }
+              }
+            >
+              <FormikConnect(ErrorMessageImpl)
+                name="pname"
+              />
+            </span>
+            <div
+              className="input-group mb-3"
+            >
+              <Field
+                aria-describedby="basic-addon3"
+                className="form-control text-white bg-dark"
+                id="pname"
+                name="pname"
+                type="text"
+              />
+            </div>
+          </div>
+          <div
+            className="col-sm"
+          >
+            <label
+              className="form-label text-white d-flex justify-content-center "
+              htmlFor="manufacturer"
+            >
+               Manufacturer
+            </label>
+            <span
+              style={
+                Object {
+                  "color": "red",
+                }
+              }
+            >
+              <FormikConnect(ErrorMessageImpl)
+                name="manufacturer"
+              />
+            </span>
+            <div
+              className="input-group mb-3"
+            >
+              <Field
+                aria-describedby="basic-addon3"
+                className="form-control text-white bg-dark"
+                id="manufacturer"
+                name="manufacturer"
+                type="text"
+              />
+            </div>
+          </div>
+        </div>
+        <div>
+          <label
+            className="form-label text-white d-flex justify-content-center"
+            htmlFor="description"
+          >
+            Description for Product
+          </label>
+          <span
+            style={
+              Object {
+                "color": "red",
+              }
+            }
+          >
+            <FormikConnect(ErrorMessageImpl)
+              name="description"
+            />
+          </span>
+          <div
+            className="input-group mb-3"
+          >
+            <Field
+              aria-describedby="basic-addon3"
+              className="form-control text-white bg-dark"
+              id="description"
+              name="description"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          className=" row  "
+        >
+          <div
+            className=" col-sm "
+          >
+            <label
+              className="form-label text-white d-flex justify-content-center"
+              htmlFor="price"
+              id="ttttt"
+            >
+              Price
+            </label>
+            <span
+              style={
+                Object {
+                  "color": "red",
+                }
+              }
+            >
+              <FormikConnect(ErrorMessageImpl)
+                name="price"
+              />
+            </span>
+            <div
+              className="input-group mb-3"
+            >
+              <span
+                className="input-group-text text-white bg-dark"
+                id="span"
+              >
+                ₹
+              </span>
+                
+              <Field
+                aria-describedby="basic-addon3"
+                className="form-control text-white bg-dark  "
+                id="price"
+                name="price"
+                type="text"
+              />
+            </div>
+          </div>
+          <div
+            className=" col-sm "
+          >
+            <label
+              className="form-label text-white d-flex justify-content-center"
+              htmlFor="quantity"
+            >
+              Quantity
+            </label>
+            <span
+              style={
+                Object {
+                  "color": "red",
+                }
+              }
+            >
+              <FormikConnect(ErrorMessageImpl)
+                name="quantity"
+              />
+            </span>
+            <div
+              className="input-group mb-3 "
+            >
+              <Field
+                aria-describedby="basic-addon3"
+                className="form-control text-white bg-dark "
+                id="quantity"
+                name="quantity"
+                type="text"
+              />
+            </div>
+          </div>
+          <div
+            className=" col-sm "
+          >
+            <label
+              className="form-label text-white d-flex justify-content-center"
+              htmlFor="category"
+            >
+              Category
+            </label>
+            <span
+              style={
+                Object {
+                  "color": "red",
+                }
+              }
+            >
+              <FormikConnect(ErrorMessageImpl)
+                name="category"
+              />
+            </span>
+            <div
+              className="input-group mb-3 "
+            >
+              <Field
+                aria-describedby="basic-addon3"
+                className="form-control text-white bg-dark "
+                id="category"
+                name="category"
+                type="text"
+              />
+            </div>
+          </div>
+        </div>
+        <div>
+          <label
+            className="form-label text-white fs-3 d-flex justify-content-center"
+            htmlFor="url"
+          >
+            Image URL
+          </label>
+          <span
+            style={
+              Object {
+                "color": "red",
+              }
+            }
+          >
+            <FormikConnect(ErrorMessageImpl)
+              name="url"
+            />
+          </span>
+          <div
+            className="input-group mb-3"
+          >
+            <span
+              className="input-group-text text-white bg-secondary mr-1"
+              id="basic-addon3"
+            >
+              https://exampleimage.com/
+            </span>
+            <Field
+              aria-describedby="basic-addon3"
+              className="form-control text-white bg-dark"
+              id="url"
+              name="url"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          className=""
+        >
+          <button
+            className="btn text-white w-100 mb-2 bg-dark border"
+            type="submit"
+          >
+            Submit
+          </button>
+        </div>
+      </Form>
+      <br />
+    </div>
+  </Formik>
+  <br />
+  <br />
+  <br />
+</div>
+`;

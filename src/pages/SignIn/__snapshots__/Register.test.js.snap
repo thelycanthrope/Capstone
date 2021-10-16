@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`taking snapshot should take snap 1`] = `
+<div
+  class="bg-dark"
+>
+  <form
+    action="#"
+    class=" col-sm "
+  >
+    <h3
+      class="text-white container text-center pt-5"
+    >
+      New user?  fill the details to Register
+    </h3>
+    <div
+      class="mx-5 px-5 py-5 border"
+    >
+      <div>
+        <label
+          class="form-label text-white"
+          for="Email1"
+        >
+          Email address
+        </label>
+        <div
+          style="color:red"
+        />
+        <input
+          aria-describedby="emailHelp"
+          class="form-control bg-dark text-white"
+          id="Email1"
+          name="email"
+          placeholder="email address"
+          type="email"
+          value=""
+        />
+      </div>
+      <div>
+        <label
+          class="form-label  text-white mt-3"
+          for="Password1"
+        >
+          Password
+        </label>
+        <div
+          style="color:red"
+        />
+        <input
+          class="form-control bg-dark text-white"
+          id="Password1"
+          name="password"
+          placeholder="Password"
+          type="password"
+          value=""
+        />
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col-sm"
+        >
+          <label
+            class="form-label text-white mt-3"
+            for="userfname"
+          >
+            First Name
+          </label>
+          <div
+            style="color:red"
+          />
+          <input
+            aria-describedby="emailHelp"
+            class="form-control bg-dark text-white"
+            id="userfname"
+            name="fname"
+            placeholder="First Name"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="col-sm"
+        >
+          <label
+            class="form-label text-white mt-3"
+            for="uselname"
+          >
+            Last Name
+          </label>
+          <div
+            style="color:red"
+          />
+          <input
+            aria-describedby="emailHelp"
+            class="form-control bg-dark text-white"
+            id="uselname"
+            name="lname"
+            placeholder="Last Name"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col-sm"
+        >
+          <label
+            class="form-label text-white mt-3"
+            for="location"
+          >
+            Location
+          </label>
+          <div
+            style="color:red"
+          />
+          <input
+            aria-describedby="emailHelp"
+            class="form-control bg-dark text-white"
+            id="location"
+            name="location"
+            placeholder="location"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="col-sm"
+        >
+          <label
+            class="form-label text-white mt-3"
+            for="contact"
+          >
+            Contact No.
+          </label>
+          <div
+            style="color:red"
+          />
+          <input
+            aria-describedby="emailHelp"
+            class="form-control bg-dark text-white"
+            id="contact"
+            name="contactno"
+            placeholder="contact No."
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <button
+        class="btn bg-dark border-white text-white w-100 mt-3"
+        type="submit"
+      >
+        Register
+      </button>
+    </div>
+    <br />
+    <br />
+    <br />
+  </form>
+</div>
+`;

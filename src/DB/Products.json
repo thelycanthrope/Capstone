@@ -1,0 +1,290 @@
+{
+  "products": [
+    {
+      "pname": "SS Master 1000 English Willow Cricket Bat",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident",
+      "manufacturer": "Sareen Sports Industries",
+      "price": 6300,
+      "quantity": "78",
+      "url": "https://www.onlinecricstore.com/media/catalog/product/cache/26c91cbb37c57611b1daf32fd10f6d8a/u/n/untitled-1_25.png",
+      "id": 1,
+      "category": "bat"
+    },
+    {
+      "pname": "Kookaburra Kahuna 750 Wicket Keeping Gloves",
+      "quantity": 45,
+      "price": 2900,
+      "url": "https://www.onlinecricstore.com/media/catalog/product/cache/26c91cbb37c57611b1daf32fd10f6d8a/u/n/untitled-1_11_1.png",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident",
+      "manufacturer": "Kookaburra Sports",
+      "id": 2,
+      "category": "gloves"
+    },
+    {
+      "pname": "SG Club White Leather Cricket Ball",
+      "quantity": 25,
+      "price": 900,
+      "url": "https://www.onlinecricstore.com/media/catalog/product/cache/26c91cbb37c57611b1daf32fd10f6d8a/c/l/club-white3.jpg",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident",
+      "manufacturer": "SG SPorts",
+      "id": 3,
+      "category": "ball"
+    },
+    {
+      "pname": "Ceat Grippstar Cricket Batting Pads",
+      "quantity": 18,
+      "price": 4000,
+      "url": "https://www.onlinecricstore.com/media/catalog/product/cache/26c91cbb37c57611b1daf32fd10f6d8a/d/s/dsc_0395_4.png",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident",
+      "manufacturer": "CEAT Sports",
+      "id": 4,
+      "category": "pads"
+    },
+    {
+      "pname": "MRF Pro Bails - Senior",
+      "quantity": 10,
+      "price": 200,
+      "url": "https://cdn-5c84bc36-b681cbc1.mysagestore.com/b522fd52e101edc926c3308c230445d5/contents/3T163225/thumbnail/middle_3T163225.jpg",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident",
+      "manufacturer": "MRF Sports",
+      "id": 5,
+      "category": "accessories"
+    },
+    {
+      "pname": "Kookaburra Kahuna 1000 English Willow Cricket Bat",
+      "quantity": 8,
+      "price": 21000,
+      "url": "https://www.onlinecricstore.com/media/catalog/product/cache/26c91cbb37c57611b1daf32fd10f6d8a/k/a/kahuna-1000-4_1.png",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident",
+      "manufacturer": "Kookaburra Sports",
+      "id": 6,
+      "category": "bat"
+    },
+    {
+      "pname": "MRF Genius Grand Edition Cricket Bat English Willow",
+      "quantity": 5,
+      "price": 8500,
+      "url": "https://www.onlinecricstore.com/media/catalog/product/cache/26c91cbb37c57611b1daf32fd10f6d8a/c/r/cricketbat_e_2_1.png",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident ",
+      "manufacturer": "MRF Sports",
+      "id": 7,
+      "category": "bat"
+    },
+    {
+      "pname": "Kookaburra Surge 200 English Willow Cricket Bat",
+      "quantity": 8,
+      "price": 9900,
+      "url": "https://www.onlinecricstore.com/media/catalog/product/cache/26c91cbb37c57611b1daf32fd10f6d8a/u/n/untitled-1_69.png",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident",
+      "manufacturer": "Kookaburra Sports",
+      "id": 8,
+      "category": "bat"
+    },
+    {
+      "pname": "SG PLAYER ULTIMATE CRICKET BAT ENGLISH WILLOW",
+      "quantity": 5,
+      "price": 13000,
+      "url": "https://www.onlinecricstore.com/media/catalog/product/cache/26c91cbb37c57611b1daf32fd10f6d8a/u/n/untitled-1_1_1.png",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident ",
+      "manufacturer": "SG Sports",
+      "id": 9,
+      "category": "bat"
+    },
+    {
+      "pname": "BAS VAMPIRE Commander English Willow Cricket Bat",
+      "quantity": 4,
+      "price": 11000,
+      "url": "https://www.onlinecricstore.com/media/catalog/product/cache/26c91cbb37c57611b1daf32fd10f6d8a/u/n/untitled-1_79_1.png",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident",
+      "manufacturer": "BAS Vampire",
+      "id": 10,
+      "category": "bat"
+    },
+    {
+      "pname": "DSC Condor Drive English Willow Cricket Bat",
+      "quantity": 8,
+      "price": 7000,
+      "url": "https://www.onlinecricstore.com/media/catalog/product/cache/26c91cbb37c57611b1daf32fd10f6d8a/d/s/dsc_05080.png",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident",
+      "manufacturer": "DSC Sports",
+      "id": 11,
+      "category": "bat"
+    },
+    {
+      "pname": "SG Hybrid 20 Xtreme English Willow Cricket Bat",
+      "quantity": 5,
+      "price": 14000,
+      "url": "https://www.onlinecricstore.com/media/catalog/product/cache/26c91cbb37c57611b1daf32fd10f6d8a/s/g/sg-hybrid-20-xtreme-mult-image.png",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident ",
+      "manufacturer": "SG Sports",
+      "id": 12,
+      "category": "bat"
+    },
+    {
+      "pname": "SS Heritage English Willow Cricket Bat",
+      "quantity": 4,
+      "price": 6500,
+      "url": "https://www.onlinecricstore.com/media/catalog/product/cache/26c91cbb37c57611b1daf32fd10f6d8a/1/2/123_2.png",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident",
+      "manufacturer": "Sareen Sports Industries",
+      "id": 13,
+      "category": "bat"
+    },
+    {
+      "pname": "SS Gladiator Cricket Batting Gloves",
+      "quantity": 14,
+      "price": 3000,
+      "url": "https://www.onlinecricstore.com/media/catalog/product/cache/26c91cbb37c57611b1daf32fd10f6d8a/5/_/5_103_1.png",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident",
+      "manufacturer": "Sareen Sports Industries",
+      "id": 14,
+      "category": "gloves"
+    },
+    {
+      "pname": "SG RSD Supalite Cricket Batting Gloves",
+      "quantity": 12,
+      "price": 2500,
+      "url": "https://www.onlinecricstore.com/media/catalog/product/cache/26c91cbb37c57611b1daf32fd10f6d8a/u/n/untitled-1_39.png",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident",
+      "manufacturer": "SG Sports",
+      "id": 15,
+      "category": "gloves"
+    },
+    {
+      "pname": "Spartan Camaflauge Wicket Keeping Gloves",
+      "quantity": 4,
+      "price": 1800,
+      "url": "https://www.onlinecricstore.com/media/catalog/product/cache/26c91cbb37c57611b1daf32fd10f6d8a/u/n/untitled-1_69_1.png",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident",
+      "manufacturer": "Spartan Sports ",
+      "id": 16,
+      "category": "gloves"
+    },
+    {
+      "pname": "SG Club Leather Cricket Red Ball",
+      "quantity": 36,
+      "price": 1500,
+      "url": "https://www.onlinecricstore.com/media/catalog/product/cache/26c91cbb37c57611b1daf32fd10f6d8a/c/l/club2.jpg",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident",
+      "manufacturer": "SG Sports",
+      "id": 17,
+      "category": "ball"
+    },
+    {
+      "pname": "SS Gladiator Cricket Batting Pads",
+      "quantity": 16,
+      "price": 3500,
+      "url": "https://www.onlinecricstore.com/media/catalog/product/cache/26c91cbb37c57611b1daf32fd10f6d8a/6/5/65.png",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident",
+      "manufacturer": "Sareen Sports Industries",
+      "id": 18,
+      "category": "pads"
+    },
+    {
+      "pname": "Kookaburra Elite Cricket Helmet",
+      "quantity": 24,
+      "price": 1200,
+      "url": "https://cdn-5c84bc36-b681cbc1.mysagestore.com/b522fd52e101edc926c3308c230445d5/contents/3M183/thumbnail/middle_3M183.jpg",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident",
+      "manufacturer": "Kookaburra Sports",
+      "id": 19,
+      "category": "accessories"
+    },
+    {
+      "pname": "Savage Player Edition Cricket Bat Grip, Pack of 3",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident",
+      "manufacturer": "NB Sports",
+      "price": "299",
+      "quantity": "18",
+      "url": "https://www.onlinecricstore.com/media/catalog/product/cache/26c91cbb37c57611b1daf32fd10f6d8a/u/n/untitled-1_71.png",
+      "category": "accessories",
+      "id": 20
+    },
+    {
+      "pname": "SS Master 1000 English Willow Cricket Bat",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident",
+      "manufacturer": "Sareen Sports Industries",
+      "price": "6300",
+      "quantity": "55",
+      "url": "https://www.onlinecricstore.com/media/catalog/product/cache/26c91cbb37c57611b1daf32fd10f6d8a/u/n/untitled-1_25.png",
+      "category": "bat",
+      "id": 21
+    }
+  ],
+  "users": [
+    {
+      "email": "example1@email.com",
+      "password": "password@321",
+      "fname": "Alaric",
+      "lname": "Saltzman",
+      "location": "Mystic falls",
+      "contactno": "+324568423794",
+      "id": 1
+    },
+    {
+      "email": "example2@email.com",
+      "password": "password#132",
+      "fname": "Stiles",
+      "lname": "Stilinski",
+      "location": "Beackon Hills",
+      "contactno": "+365559557",
+      "id": 2
+    },
+    {
+      "email": "example3@email.com",
+      "password": "password$432",
+      "fname": "Niklaus",
+      "lname": "Mikaelson",
+      "location": "New Orleans",
+      "contactno": "+16135550119",
+      "id": 3
+    },
+    {
+      "email": "example4@email.com",
+      "password": "password%145",
+      "fname": "Malcom",
+      "lname": "Merlin",
+      "location": "Starling City",
+      "contactno": "+3854573136810",
+      "id": 4
+    },
+    {
+      "email": "exampl2@email.co.in",
+      "password": "123123",
+      "fname": "exampl",
+      "lname": "2",
+      "location": "solapur",
+      "contactno": "1234569870",
+      "id": 5
+    },
+    {
+      "email": "abcd@email.com",
+      "password": "abcdabcd",
+      "fname": "Jarvis",
+      "lname": "S",
+      "location": "NYC",
+      "contactno": "+456789123",
+      "id": 6
+    },
+    {
+      "email": "xyz@email.com",
+      "password": "asdfghjkl",
+      "fname": "King",
+      "lname": "K",
+      "location": "Tahiti",
+      "contactno": "+789456123",
+      "id": 7
+    }
+  ],
+  
+  "views": [
+    {
+      "bat": 0,
+      "ball": 0,
+      "pads": 0,
+      "gloves": 0,
+      "accessories": 0,
+      "id": 1
+    }
+  ]
+}

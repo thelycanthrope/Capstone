@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`When valid products array props is passed to ProductsList component snapshot 1`] = `
+<div>
+  <div
+    className="container "
+  >
+    <div
+      className="row"
+    >
+      <Products
+        category="bat"
+        description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident"
+        id={1}
+        key="1"
+        manufacturer="Sareen Sports Industries"
+        pname="SS Master 1000 English Willow Cricket Bat"
+        price={6300}
+        quantity="78"
+        url="https://www.onlinecricstore.com/media/catalog/product/cache/26c91cbb37c57611b1daf32fd10f6d8a/u/n/untitled-1_25.png"
+      />
+      <Products
+        category="gloves"
+        description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident"
+        id={10}
+        key="10"
+        manufacturer="Kookaburra Sports"
+        pname="Kookaburra Kahuna 750 Wicket Keeping Gloves"
+        price={2900}
+        quantity={45}
+        url="https://www.onlinecricstore.com/media/catalog/product/cache/26c91cbb37c57611b1daf32fd10f6d8a/u/n/untitled-1_11_1.png"
+      />
+      <Products
+        category="ball"
+        description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni et nemo, voluptate sed cum voluptates voluptatum provident"
+        id={14}
+        key="14"
+        manufacturer="SG Sports"
+        pname="SG Club Leather Cricket Red Ball"
+        price={1500}
+        quantity={36}
+        url="https://www.onlinecricstore.com/media/catalog/product/cache/26c91cbb37c57611b1daf32fd10f6d8a/c/l/club2.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;

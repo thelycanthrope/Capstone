@@ -1,0 +1,68 @@
+#text_div {
+  
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 10px;
+  }
+  
+  .center_all {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: white;
+  }
+
+  #card{
+    border:2px solid white;
+    border-radius: 50px;
+    background-color: black;
+    /* opacity:0.5; */
+  }
+  #card-header{
+    border-bottom:2px solid white;
+    color:white;
+    font-family: 'Lobster Two', cursive;
+  }
+ 
+
+  #text-muted{
+    border-top:2px solid white;
+    font-family: 'East Sea Dokdo', cursive;
+    color: white !important;
+    font-size: 30px;
+  }
+  #card-title{
+    font-family: cursive
+  }
+  .btn {
+    font-family: cursive;
+  }
+
+  @keyframes blinking {
+    0% {
+      background-color: #ff3d50;
+      border: 5px solid #871924;
+    }
+     
+    50% {
+      background-color: #55d66b;
+      border: 5px solid #126620;
+      color:black;
+      /* font-weight: 900; */
+    }
+    
+    100% {
+      background-color: #222291;
+      border: 5px solid #6565f2;
+    }
+  }
+  #demo {
+ 
+    /* NAME | TIME | ITERATION */
+    animation: blinking 1s infinite;
+  }

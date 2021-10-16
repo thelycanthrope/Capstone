@@ -1,0 +1,28 @@
+#pname,#description,#quantity,#price,#manufacturer,#url,#span,#category {
+    border-bottom: 1px solid white;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    text-align: center;
+  }
+  
+ #url:focus{
+    border-top:none;
+    border-right:none;
+    border-left:none;
+  }
+
+
+  
+  label{
+      font-weight: bold;
+      text-decoration: underline;
+      font-size: large;
+  }
+
+
+
+  #span{
+      border-bottom-right-radius: 0px;
+
+  }

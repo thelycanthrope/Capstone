@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`First SignIn Test should take snap 1`] = `
+<div
+  class="bg-dark "
+>
+  <br />
+  <div
+    class="row"
+  >
+    <form
+      action="#"
+      class="container col-sm "
+      id="here2"
+    >
+      <h3
+        class="text-white mx-5 "
+      >
+         Sign In
+      </h3>
+      <div
+        class="mx-5 px-5 my-5 py-5 border "
+        id="here"
+      >
+        <div
+          class="form-group "
+        >
+          <label
+            class="text-white"
+            for="exampleInputEmail1"
+          >
+            Email address
+          </label>
+          <div
+            class="text-danger"
+          />
+          <input
+            aria-describedby="emailHelp"
+            class="form-control  bg-dark text-white"
+            id="exampleInputEmail1"
+            name="email"
+            placeholder="Enter email"
+            type="email"
+            value=""
+          />
+        </div>
+        <div
+          class="form-group "
+        >
+          <label
+            class="text-white"
+            for="exampleInputPassword1"
+          >
+            Password
+          </label>
+          <div
+            class="text-danger"
+          />
+          <input
+            class="form-control bg-dark text-white"
+            id="exampleInputPassword1"
+            name="password"
+            placeholder="Password"
+            type="password"
+            value=""
+          />
+        </div>
+        <button
+          class="btn bg-dark border-white text-white"
+          type="submit"
+        >
+          SignIn
+        </button>
+      </div>
+    </form>
+    <div
+      class="col-sm border mx-5 mb-3"
+    >
+      <h1
+        class="text-white text-center mt-5 py-5"
+      >
+        Hello Friend!
+      </h1>
+      <h5
+        class="text-white text-center "
+        style="font-family:\\"Times New Roman\\", Times, cursive"
+      >
+        Fill your personal details to start journey with us!
+      </h5>
+      <br />
+       
+      <br />
+      <a
+        href="/register"
+      >
+         
+        <div
+          class="text-center"
+        >
+          <button
+            class=" btn btn-dark bg-dark text-white border"
+          >
+             Register
+          </button>
+           
+        </div>
+         
+      </a>
+    </div>
+  </div>
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+</div>
+`;

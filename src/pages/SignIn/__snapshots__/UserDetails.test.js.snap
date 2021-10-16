@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot snapshot test 1`] = `
+<div
+  class="bg-dark "
+>
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <div
+    class="container text-white d-flex justify-content-center "
+  >
+    <div
+      class="card text-center bg-dark border"
+      style="width:25rem"
+    >
+      <div
+        class="card-body"
+      >
+        <h5
+          class="card-title"
+        >
+          Welcome, 
+          <span
+            class="bg-success "
+          >
+               
+          </span>
+        </h5>
+        <p
+          class="card-text"
+        >
+          Registerd Email: 
+          <span
+            class="bg-warning text-dark"
+            style="font-weight:bold"
+          >
+              
+          </span>
+        </p>
+        <p
+          class="card-text "
+        >
+          Registered Contact No: 
+          <span
+            class="bg-primary"
+            style="font-weight:bold"
+          >
+              
+          </span>
+        </p>
+        <p
+          class="card-text"
+        >
+          Registered Location: 
+          <span
+            class="bg-light text-danger"
+            style="font-weight:bold"
+          >
+              
+          </span>
+        </p>
+        <div
+          class="card-footer text-muted border"
+        />
+      </div>
+    </div>
+  </div>
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+</div>
+`;

@@ -1,0 +1,7 @@
+.carddd:hover{
+    box-shadow: rgb(206 199 199 / 20%) 0px 0px 19px 11px;
+}
+
+h5:hover{
+    cursor: pointer;
+}
