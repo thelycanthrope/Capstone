@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, { useEffect,useState } from 'react';
+import React, { useState } from 'react';
 import { Doughnut } from 'react-chartjs-2';
 import NavBar from '../Components/NavBar';
 
@@ -10,18 +10,18 @@ let data  ;
 
 
 
-const styles ={
-width:"600px",
-height:"600px"
-}
+// const styles ={
+// width:"600px",
+// height:"600px"
+// }
 
 
-const options ={
-  title:{
-    display:true,
-    text:'Top Viewed Products'
-  }
-}
+// const options ={
+//   title:{
+//     display:true,
+//     text:'Top Viewed Products'
+//   }
+// }
 
 const TopViewed = () => {
   const [bat, setBat] = useState()

@@ -1,9 +1,9 @@
-import React, {  useEffect,useState,useCallback } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import React, {  useEffect,useState} from 'react'
+
 import { NavLink, useHistory,withRouter } from 'react-router-dom'
 
 import log from '../Images/lycan.jpg'
-import axios from 'axios'
+
 
 let history;
 const st = {
@@ -77,7 +77,7 @@ useEffect( () => {
                 
 
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark container">
-                <NavLink className="navbar-brand" exact to="/" activeClassName='active'><img src={log} style={st} /></NavLink>
+                <NavLink className="navbar-brand" exact to="/" activeClassName='active'><img src={log} style={st} alt=""/></NavLink>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

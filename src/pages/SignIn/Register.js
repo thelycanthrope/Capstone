@@ -12,7 +12,7 @@ import NavBar from '../../Components/NavBar'
 
 
 toast.configure();
-let eusers;
+
 const initialValues={
   email:"",
   password:"",

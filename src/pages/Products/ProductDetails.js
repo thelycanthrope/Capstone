@@ -24,8 +24,9 @@ toast.configure();
 function ProductDetails() {
    const location=useLocation()
     const [is,setIs]=useState();
-    const [data,setData]=useState([]);
-    const [category,setCat]=useState(location.state.category);
+    
+    const [category,setCat]=useState();
+    setCat(location.state.category)
    
    history=useHistory();
 
@@ -141,7 +142,7 @@ function ProductDetails() {
             <div className="container bg-dark text-white ">
                 <div className="row">
                     <div className="col sm">
-                    <img src={location.state.url} className="border img-thumbnail rounded mx-3 my-5 bg-dark"></img>
+                    <img src={location.state.url} className="border img-thumbnail rounded mx-3 my-5 bg-dark" alt=""></img>
                     </div>
                     <div className="col sm">
                     <h1>{location.state.pname}</h1>

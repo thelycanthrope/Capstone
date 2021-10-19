@@ -11,11 +11,6 @@ import AddProduct from '../pages/AddProducts/AddProduct';
 import ProductDetails from '../pages/Products/ProductDetails';
 import Update from '../pages/Products/Update';
 import Register from '../pages/SignIn/Register';
-import NavBar from './NavBar';
-
-
-
-
 
 
 function Appp() {

@@ -1,4 +1,4 @@
-import React, { useEffect,useContext } from 'react'
+import React, { useEffect } from 'react'
 import './signin.css'
 import { Formik,Form,Field,ErrorMessage } from 'formik'
 import * as Yup from 'yup'
@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchUser} from '../../Actions/actions'
 import {toast} from 'react-toastify'
-import {  signIn } from './methods'
 import NavBar from '../../Components/NavBar'
 
 

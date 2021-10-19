@@ -3,7 +3,6 @@ import { Prompt, useLocation, withRouter } from 'react-router-dom';
 import {Formik,Form,Field,ErrorMessage, useFormikContext } from "formik"
 import * as Yup from 'yup'
 import axios from 'axios'
-import {connect} from 'react-redux'
 import {toast} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import NavBar from '../../Components/NavBar';
@@ -166,10 +165,10 @@ function Update(props) {
 }
 
 
-const mapDispatchToProps =(dispatch) =>{
-    return{
-        // posts:() => {dispatch(posts())}
-    }
-}
+// const mapDispatchToProps =(dispatch) =>{
+//     return{
+//         // posts:() => {dispatch(posts())}
+//     }
+// }
 export default withRouter(Update)
 

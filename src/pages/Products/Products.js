@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './card.css'
 import {Link} from 'react-router-dom';
-import ProductDetails from './ProductDetails'
+
 const stt={
     
     width: "200px",
@@ -16,7 +16,7 @@ const stt={
 
 
 function Products(props) {
-    let path=`/products/${props.id}`;
+    // let path=`/products/${props.id}`;
   
     return (
         

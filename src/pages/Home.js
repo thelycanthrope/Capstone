@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Main from '../Components/ParticlesConfig/Main'
 import NavBar from '../Components/NavBar'
 import './page.css'

@@ -2,10 +2,8 @@ import React,{ useEffect, useState,Suspense,lazy} from 'react'
 import fetchData from '../../Actions/actions'
 import {useSelector,useDispatch} from 'react-redux'
 import ReactTooltip from 'react-tooltip';
-import { Link, withRouter } from 'react-router-dom';
-import axios from 'axios';
+import { Link} from 'react-router-dom';
 import {HashLoader} from 'react-spinners'
-import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
 import { Field, Form, Formik } from 'formik';
 import NavBar from '../../Components/NavBar';
@@ -14,9 +12,7 @@ const ProductList=lazy( () => import('./ProductList'))
 
 
 
-const initialValues ={   
-options :""
-}
+
 
 function AllProductsPage(props) {
     const products= useSelector( (state) => {return state});
@@ -24,14 +20,13 @@ function AllProductsPage(props) {
     const [array,setArray]=useState([])
     console.log("all prod page",products);
     const dispatch = useDispatch();
-    useEffect( () => {
-        dispatch(fetchData())
-    },[])
+  
     const [is,setIs]=useState();
     useEffect( () => {
     //     axios.get('http://localhost:5500/loggedin/1')
     // .then( r => { setIs(r.data.loggedin) })
     // .catch( e => console.log(e))
+    dispatch(fetchData())
     setIs(localStorage.getItem('loggedin'))
 
 },[])
@@ -103,7 +98,7 @@ function AllProductsPage(props) {
                 {flag===true
            ?<ProductList products={array}/>
             :typeof(products)!=='undefined'?
-            <ProductList products={products.products}/>:<h1></h1>
+            <ProductList products={products.products}/>:null
             }
            
            </Suspense>
