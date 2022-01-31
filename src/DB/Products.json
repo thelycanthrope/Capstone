@@ -276,14 +276,13 @@
       "id": 7
     }
   ],
-  
   "views": [
     {
-      "bat": 0,
-      "ball": 0,
-      "pads": 0,
-      "gloves": 0,
-      "accessories": 0,
+      "bat": 49,
+      "ball": 17,
+      "gloves": 27,
+      "pads": 19,
+      "accessories": 54,
       "id": 1
     }
   ]

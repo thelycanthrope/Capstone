@@ -20,13 +20,7 @@ function set  (users,email)  {
 
   for( let i=0;i<users.users.length;i++){
     if(email===users.users[i].email){
-      user=users.users[i]
-      // user.email=users.users[i].email,
-      // user.password=users.users[i].password,
-      // user.fname=users.users[i].fname,
-      // user.lname=users.users[i].lname,
-      // user.location=users.users[i].location,
-      // user.contactno=users.users[i].contactno
+      user={...users.users[i]}
       console.log(user);
     }
   }
@@ -39,10 +33,11 @@ const UserDetails = () => {
   
 
 const users=useSelector( state => state )
+
   const dispatch = useDispatch()
   
   useEffect ( ( ) =>{
-    dispatch(fetchUser()) },[])
+    dispatch(fetchUser()) },[dispatch])
 
 
   useEffect ( ( ) =>{ 
@@ -53,10 +48,10 @@ setEmail(localStorage.getItem('loggedin'))
 },[])
 
 
-console.log();
+console.log(email)
 
 
-(typeof (email)!=='undefined') ? set(users,email):console.log('else')
+email && users ? set(users,email):console.log('else')
 
 
 

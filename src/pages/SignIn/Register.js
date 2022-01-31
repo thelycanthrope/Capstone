@@ -51,7 +51,7 @@ function Register(props) {
   // const formik = useFormikContext();
   useEffect( () => {
     dispatch(fetchUser())
-  },[])
+  },[dispatch])
   let users;
   const onsubmit = (values,actions) => {
   

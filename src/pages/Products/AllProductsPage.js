@@ -18,7 +18,7 @@ function AllProductsPage(props) {
     const products= useSelector( (state) => {return state});
     const [flag,setFlag]=useState(false)
     const [array,setArray]=useState([])
-    console.log("all prod page",products);
+   
     const dispatch = useDispatch();
   
     const [is,setIs]=useState();
@@ -29,7 +29,7 @@ function AllProductsPage(props) {
     dispatch(fetchData())
     setIs(localStorage.getItem('loggedin'))
 
-},[])
+},[dispatch])
 
   
     const handleSubmit = (values) => {

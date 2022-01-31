@@ -10,91 +10,84 @@ import NavBar from '../../Components/NavBar';
 
 
 let history;
-const obj={
-    bat: 0,
-    ball: 0,
-    pads: 0,
-    gloves: 0,
-    accessories: 0,
-    id: 1
-  }
 
 toast.configure();
 
 function ProductDetails() {
+    window.scrollTo(0,0)
    const location=useLocation()
     const [is,setIs]=useState();
+    const [topViewed, settopViewed] = useState()
+ 
     
-    const [category,setCat]=useState();
-    setCat(location.state.category)
+const category=location.state.category
+    
    
    history=useHistory();
 
 
     useEffect( () => {
         
-    //     axios.get('http://localhost:5500/loggedin/1')
-    // .then( r => { setIs(r.data.loggedin) })
-    // .catch( e => console.log(e))
+   
 
     setIs(localStorage.getItem('loggedin'))
  
-    axios.get('http://localhost:5500/views')
-.then( (r)=>{ console.log(r.data[0])
+    axios.get('http://localhost:5500/views/1')
+.then( (r)=>{
+   
+     
+
+settopViewed({...r.data})
+
+
 
         switch(category){
     case 'bat':
-    obj.bat=r.data[0].bat+1
-    obj.ball=r.data[0].ball
-    obj.pads=r.data[0].pads
-    obj.gloves=r.data[0].gloves
-    obj.accessories=r.data[0].accessories 
+    topViewed.bat=topViewed.bat+1
         break;
 
     case 'ball':
-        obj.bat=r.data[0].bat
-        obj.ball=r.data[0].ball+1
-        obj.pads=r.data[0].pads
-        obj.gloves=r.data[0].gloves
-        obj.accessories=r.data[0].accessories
+        
+        topViewed.ball=topViewed.ball+1
+ 
      break;
 
     case 'pads':
-        obj.bat=r.data[0].bat
-        obj.ball=r.data[0].ball
-        obj.pads=r.data[0].pads+1
-        obj.gloves=r.data[0].gloves
-        obj.accessories=r.data[0].accessories
+     
+        topViewed.pads=topViewed.pads+1
+       
     break;
 
     case 'gloves':
-        obj.bat=r.data[0].bat
-        obj.ball=r.data[0].ball
-        obj.pads=r.data[0].pads
-        obj.gloves=r.data[0].gloves+1
-        obj.accessories=r.data[0].accessories
+
+        topViewed.gloves=topViewed.gloves+1
+
     break;
 
     case 'accessories':
-        obj.bat=r.data[0].bat
-        obj.ball=r.data[0].ball
-        obj.pads=r.data[0].pads
-        obj.gloves=r.data[0].gloves
-        obj.accessories=r.data[0].accessories+1
+
+        topViewed.accessories=topViewed.accessories+1
     break;
 
     default:console.log(category);
     
 }
 
-})
+topViewed?
+axios.put('http://localhost:5500/views/1',topViewed):null
+.then(r=>console.log(r))
+.catch(e => console.log(e))
+
+}
+
+)
 .catch( e => console.log(e))
 
- axios.put('http://localhost:5500/views/1',obj)
-        .then(r=>console.log(r))
-        .catch(e => console.log(e))
 
-},[])
+
+
+
+},[category,topViewed])
  
     return (
         
@@ -164,6 +157,7 @@ function ProductDetails() {
             </div>
             <br/>
         </div>
+    
     )
 }
 

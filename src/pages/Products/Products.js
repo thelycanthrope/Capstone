@@ -16,7 +16,8 @@ const stt={
 
 
 function Products(props) {
-    // let path=`/products/${props.id}`;
+   
+   
   
     return (
         
